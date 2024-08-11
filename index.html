@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuda Grátis</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Tabuada Grátis</h1>
+        <p>Digite o número e confirme para gerar uma tabuada</p>
+        <form id="multiplication-form">
+            <div class="number-form">
+                <div class="form-control">
+                    <label for="number">Tabuada do:</label>
+                    <input type="number" name="number" id="number" placeholder="3"/>
+                </div>
+                <div class="form-control">
+                    <label for="multiplicador">Multiplicador até:</label>
+                    <input type="number" name="multiplicador" id="multiplicador" placeholder="3"/>
+                </div>
+            </div>
+            <input class="button-form" type="submit" value="Calcular"/>
+        </form>
+        <div id="multiplication-header">
+            <h2 id="multiplication-h2">Tabuada do número: <span></span></h2>
+            <div id="multiplication-operation">
+                <p>Informe um número para calcular uma tabuada...</p>
+                <!-- <div class="row">
+                    <div class="operation">5 x 1 =</div>
+                    <div class="result">5</div>
+                </div>
+                <div class="row">
+                    <div class="operation">5 x 1 =</div>
+                    <div class="result">5</div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(180deg, #DB4444 0%, #3F24DD 98%);
+}
+
+h1, h2, p{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#multiplication-form{
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+.number-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.form-control{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#number, #multiplicador{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.01rem solid rgb(121, 121, 121);
+    padding-left: 10px;
+}
+
+.button-form{
+    margin: 20px;
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+#multiplication-operation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#multiplication-operation p{
+    color: black;
+}
+
+#multiplication-operation .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(121, 121, 121);
+    width: 150px;
+    border-bottom: none;
+    padding: 5px;
+}
+
+#multiplication-operation .row:last-child{
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+
+.result{
+    margin-left: 8px;
+}
